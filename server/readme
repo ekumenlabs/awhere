@@ -1,0 +1,15 @@
+INSTALLATION
+------------
+
+Ubuntu 12.04:
+
+sudo apt-get install python-cherrypy3 python-redis redis-server
+git clone xxx
+cd awareness.git/server
+./main.py
+
+Notes:
+- A local redis server will be expected by the Web app
+- In ubuntu, installing redis automatically starts it, so nothing else
+  needs to be done to redis server other than installing it via apt-get
+- The Cherrypy server will expect requests in :8080
